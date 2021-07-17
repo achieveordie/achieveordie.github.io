@@ -3,3 +3,9 @@
 */.jekyll-cache
 */.jekyll-metadata
 */vendor
+
+*/node_modules
+*/.DS_STORE
+*/.env
+*/.prettierignore
+*/.idea
