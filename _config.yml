@@ -4,7 +4,7 @@
 # title: This will be displayed as the website's name in your browser tab.
 title: Sagar Mishra
 # description: This will be meta HTML tag content. This can be ignored.
-description: What up?
+description: portfolio, data scientist, student
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
@@ -14,7 +14,7 @@ baseurl: ""
 username: Sagar Mishra
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Student Data Scientist
+typing_text: Student, Data Scientist
 # email: Your E-Mail address for the email button.
 email: sagarm910@gmail.com
 # For every social button you want to display, set your username or userid
@@ -34,7 +34,12 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: I think, therefore I am.
+about_me_description: "If you were to stare at a bug for the rest of eternity, what subfield
+would it be in? For me, it'll either be in Machine Learning, Quantum Computing or Data Science in general.
+I'm a final year undergraduate student at Indian Institute of Technology, Dhanbad; having a gamut of interest
+across fields and topics varying from Computer Science to Philosophy; enjoying the analytical problem
+solving of Dynamic Programming as well as the creative freedom offered by poetry with an equally huge
+appetite for the pursuit of physical & mental health."
 
 # SKILLS SECTION
 # show_skills_card:
@@ -81,12 +86,13 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Lets stay in contact!
+contact_description: "We might be strangers, but I'm just a click away, feel free to stroll around this little
+digital garden of mine."
 
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: longpdo/neumorphism
+repository: achieveordie/achieveordie.github.io
 projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
@@ -100,7 +106,7 @@ projects:
     # forks:
     # > setting this to true, will exclude forked repositories
     # > setting this to false, will also display forked repositories
-    forks: true
+    forks: false
     # projects: A list of the repository names you want to exclude from the listing.
     projects:
     # - repo1-to-be-excluded
