@@ -13,21 +13,68 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
-  tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
-
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: CryptoAnalysis (Ongoing)
+  descr: "A system that listens to specific discussion forums like Reddit and keep a database of currently-discussed
+  coins, while also analyzing the nature of it. This captures bullish & bearish trends enabling the user to get on the
+  hype train early / assist in securing promising positions at lower cost, hence making bigger profits. "
+  demo:
   tags:
     - tag: Python
-    - tag: Django
+    - tag: C++
+    - tag: MySQL
+    - tag: Finance
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+- name: Nomonia
+  descr: "Nomonia is an android application which makes use of a TFlite model to identify if someone has Pneumonia
+  based on their chest X-rays. Initial model was built on TensorFlow with a custom CNN architecture trained from scratch.
+  It was then migrated to work on smaller devices via TFlite. The app is built in native environment using Android
+  Studio."
+  demo: "https://github.com/achieveordie/Nomonia"
+  tags:
+    - tag: Java
+    - tag: App development
+    - tag: Computer Vision
+    - tag: Deep Learning
+
+- name: IsItCorrect
+  descr: "IsItCorrect is a multilingual companion which assists intermediate language learners in identifying whether
+  their inputted sentence is correct. Currently, the model is only present for the French language.
+  The model is built using huggingface & PyTorch with a Transformer called CamemBERT, which has a similar(but not the)
+  same structure as Google's BERT.
+
+  Dataset is synthetically created by emulating the mistakes done by learners with respect to structural & grammatical
+  syntax. This is done via a POS tagger and a randomizing algorithm."
+  demo: "https://github.com/achieveordie/IsItCorrect"
+  tags:
+    - tag: Python
+    - tag: Perl
+    - tag: Natural Language Processing
+    - tag: Deep Learning
+
+- name: HybridQNN
+  descr: "This project is a brief example of how we combine Machine Learning with Quantum Computing to build a hydrid
+  Classical + Quantum Neural Network. While there are similar projects across internet, none of them seems to
+  experiment with their basic Quantum Circuit and none of them provide tangible reasons to explain why certain circuits
+  work while others don't. I've tried to analyze results from different Quantum Circuits and explain the results by
+  employing traditional mathematics."
+  demo: "https://github.com/achieveordie/HybridQNN"
+  tags:
+    - tag: Python
+    - tag: Qiskit
+    - tag: Quantum Computing
+
+#- name: GenderClassification
+#  decr: "This project aims to classify genders based on name. It employs an ensemble of Gradient Boost Machine,
+#  Linear Support Vector Machines and AdaBoost Classifiers to form a hard/soft voting classifier made via sklearn."
+#  github: "https://github.com/achieveordie/GenderClassification"
+#  tags:
+#    - tag: Python
+#    - tag: Natural Language Processing
+#    - tag: Machine Learning
+#
+#- name: PersonalWebsite
+#  decr: "Current website that you are visiting is built via jekyll and then hosted via github pages."
+#  tags:
+#    - tag: Ruby
+#    - tag: Static Webpage
+#    - tag: Web Development
