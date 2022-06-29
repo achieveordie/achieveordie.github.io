@@ -9,3 +9,5 @@ node_modules
 .env
 .prettierignore
 .idea
+
+local_content/
